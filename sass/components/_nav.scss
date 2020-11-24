@@ -28,7 +28,7 @@
 
     .studio {
       color: $blue;
-      & > .nav-link::after {
+      &::after {
         content: "";
         position: absolute;
         bottom: -32px;
