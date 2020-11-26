@@ -45,7 +45,9 @@
     color: $white;
     margin-bottom: 20px;
   }
-
+  .sotial-icon {
+    fill: $white;
+  }
   .combine-footer {
     display: flex;
     justify-content: flex-start;
@@ -54,18 +56,16 @@
     padding-top: 12px;
     margin-left: 70px;
   }
-  .sotial-icon {
-    fill: $white;
-    width: 20px;
-    height: 20px;
-  }
   .sotial-link {
     border: none;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     &:hover,
     &:focus {
+      outline: none;
+      border: none;
       background-color: $blue;
+      border-radius: 50%;
     }
   }
   .sotial-list-item {
